@@ -332,8 +332,21 @@ footer {
 }
 
   /*  スマホ用　footer  */
+/*footerのシード君だけ消す*/
+
+ footer {
+  display: flex;
+  justify-content: center;
+ }
 
 
+ footer .icon {
+  display: none;
+ }
+
+ footer .footer-right {
+  margin-right: 0;
+ }
 
 }
 
